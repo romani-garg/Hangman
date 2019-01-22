@@ -34,7 +34,7 @@ int main()
 	switch(level){
 	
 	case 1:
-	{
+	{   	int num_of_wrong_guesses = 0;
 		//put all the string inside the array here
 		string easy[] = { "india", "japan", "nepal", "china", "bhutan", "canada", "mexico", "cuba", "france", "fiji", "italy", "oman" };
 		string word;
@@ -91,7 +91,7 @@ int main()
 	}
 
 	case 2:
-	{
+	{   	int num_of_wrong_guesses = 0;
 		//put all the string inside the array here
 		string average[] = { "madagascar", "azerbaijan", "kyrgyzstan", "afghanistan", "philippines", "romania", "switzerland", "thailand", "ukraine", "vietnam", "yemen", "zimbabwe" };
 
@@ -146,7 +146,7 @@ int main()
 	}
 
 	case 3:
-	{
+	{    	int num_of_wrong_guesses = 0;
 		//put all the string inside the array here
 		string hard[] = { "turkmenistan", "french guiana", "new caledonia", "american samoa", "botswana", "burundi", "comoros", "djibouti", "gibraltar", "kiribati", "lesotho", "mauritania" };
 
